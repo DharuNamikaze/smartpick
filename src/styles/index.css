@@ -1,0 +1,20 @@
+/* src/styles/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: poppins;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.blue-gradient
+{
+    font-size:1.4rem;
+    font-weight: bold; /* Optional: makes the text bolder */
+    background: linear-gradient(90deg, #0040a0 1.5rem, #7f00ff 8.5rem ); /* Your gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;/* Centering the text, optional */
+}

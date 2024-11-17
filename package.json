@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "node-nlp": "^4.27.0",
+    "dialogflow": "^1.2.0",
+    "express": "^4.21.1",
+    "node-nlp": "^3.10.2",
     "node-nlp-rn": "^3.5.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
